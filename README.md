@@ -1,0 +1,1 @@
+Simple NodeJS API backend for searching multiple image libraries for images. Deployable via Docker. Initial commit.
