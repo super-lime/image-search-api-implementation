@@ -1,3 +1,5 @@
+require('dotenv').config();   // load .env from project root.
+
 const { fetchAll } = require('../services/fetchService');
 
 async function fetchServiceTest() {
