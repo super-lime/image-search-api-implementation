@@ -1,6 +1,10 @@
 # Cache directory
 /cache/
 
+/restresposeses/
+
+/graphqlresponses/
+
 # Node modules
 node_modules/
 
