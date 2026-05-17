@@ -146,5 +146,3 @@ node src/tests/graphqlSpamTest.js http://<aws-host>:3000
 
 **Environment variables** (`.env`): `UNSPLASH_KEY`, `PIXABAY_KEY`, `STORYBLOCKS_*`, `API_KEY=secret_api_key_123`, `RATE_LIMIT_MS=500`.
 ```
-
-This version is short, contains the exact API key, and covers all required steps. The formatting is clean and won't get cut off.
