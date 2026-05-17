@@ -1,3 +1,5 @@
+require('dotenv').config();   // load .env from project
+
 const express = require('express');
 const cacheService = require('./services/cacheService');
 const restRoutes = require('./routes/rest');

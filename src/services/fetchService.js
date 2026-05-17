@@ -1,6 +1,5 @@
 const path = require('path');
 const crypto = require('crypto');
-require('dotenv').config({ path: path.join(__dirname, '../../.env') });
 
 const batchInterval = parseInt(process.env.RATE_LIMIT_MS, 10) || 500;
 

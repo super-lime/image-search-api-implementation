@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
-const { getOrFetch } = require('../services/dataService');
-const validateApiKey = require('../middleware/auth');
+const { getOrFetch } = require('../services/getOrFetchService');
+const validateApiKey = require('../services/authService');
 
 router.get('/search', validateApiKey, async (req, res) => {
   const query = req.query.q;
