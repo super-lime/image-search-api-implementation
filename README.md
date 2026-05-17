@@ -104,6 +104,7 @@ node src/tests/graphqlSpamTest.js http://13.213.62.207:3000
 Responses are saved in `restresponses/` and `graphqlresponses/`.  
 The scripts send 1000 concurrent requests (10 search terms × 100 each).  
 Only 10 real external API calls are made (coalescing works), and the total time reflects the global 500ms rate limiter.
+
 ---
 
 ## 5. Run with Docker Locally
